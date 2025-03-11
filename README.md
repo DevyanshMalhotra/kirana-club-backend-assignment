@@ -79,14 +79,14 @@ If any image fails to download or decode, or if a `store_id` is not found in the
     ```json
     { "job_id": 123 }
     ```
+    ![Proof Screenshot](Tests/t1.png)
+
 - **Error Response:**  
   - **Code:** 400 BAD REQUEST  
   - **Content:**
     ```json
     { "error": "appropriate error message" }
     ```
-    ![Proof Screenshot](Tests/t1.png)
-
 ### 2. Get Job Info
 - **URL:** `/api/status?jobid=123`
 - **Method:** GET
