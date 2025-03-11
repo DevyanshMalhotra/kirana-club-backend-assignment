@@ -131,16 +131,6 @@ If any image fails to download or decode, or if a `store_id` is not found in the
 - **IDE/Text Editor:** VSCode
 - **Libraries:** Standard Go libraries
 
-## Enhancements Implemented
-- **Robust Error Handling:**  
-  Added retry logic for transient image download and decoding failures along with detailed logging. This improves fault tolerance and aids in debugging.
-  
-- **Graceful Shutdown:**  
-  The HTTP server supports graceful shutdown, ensuring that in-flight requests complete before the server stops.
-  
-- **Improved Logging:**  
-  Structured logging is implemented to provide better visibility into the application’s behavior and facilitate troubleshooting.
-
 ## Future Improvements
 - **Persistence:**  
   Integrate a database (e.g., PostgreSQL) to store job details persistently, making the service more resilient in production.
