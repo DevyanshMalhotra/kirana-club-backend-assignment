@@ -132,9 +132,6 @@ If any image fails to download or decode, or if a `store_id` is not found in the
 - **Libraries:** Standard Go libraries
 
 ## Enhancements Implemented
-- **Concurrency Control:**  
-  Implemented a semaphore-based worker pool to limit the number of concurrent image downloads and processing tasks, ensuring optimal resource utilization.
-  
 - **Robust Error Handling:**  
   Added retry logic for transient image download and decoding failures along with detailed logging. This improves fault tolerance and aids in debugging.
   
