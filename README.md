@@ -109,6 +109,9 @@ If any image fails to download or decode, or if a `store_id` is not found in the
       ]
   }
   ```
+  ![Proof Screenshot](Tests/t4.png)
+
+
 - **Error Response (Invalid Job ID):**
   - **Code:** 400 BAD REQUEST
   - **Content:** job not found
