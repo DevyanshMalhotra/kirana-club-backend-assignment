@@ -85,6 +85,7 @@ If any image fails to download or decode, or if a `store_id` is not found in the
     ```json
     { "error": "appropriate error message" }
     ```
+    ![Proof Screenshot](Tests/t1.png)
 
 ### 2. Get Job Info
 - **URL:** `/api/status?jobid=123`
@@ -93,9 +94,11 @@ If any image fails to download or decode, or if a `store_id` is not found in the
   ```json
   {
       "job_id": 123,
-      "status": "completed"  // or "ongoing"
+      "status": "completed"  
   }
   ```
+  ![Proof Screenshot](Tests/t2.png)
+
 - **Success Response (Failed):**
   ```json
   {
