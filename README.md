@@ -129,7 +129,7 @@ If any image fails to download or decode, or if a `store_id` is not found in the
 ## Work Environment
 - **Operating System:** Windows 11
 - **IDE/Text Editor:** VSCode
-- **Libraries:** Standard Go libraries, using Go Modules for dependency management
+- **Libraries:** Standard Go libraries
 
 ## Enhancements Implemented
 - **Concurrency Control:**  
